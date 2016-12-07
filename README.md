@@ -6,7 +6,7 @@ This way of handling passwords is based off [this blog post](https://blogs.dropb
 
 ## Install
 ```
-    go get github.com/peppage/passwordonion
+go get github.com/peppage/passwordonion
 ```
 
 ## Documentation
@@ -16,10 +16,10 @@ Read [GoDoc](https://godoc.org/github.com/peppage/passwordonion)
 ## Usage
 ```Go
 // Encrypt password, store p.
-p, err := Encrypt(pepper, password)
+p, err := passwordonion.Encrypt(pepper, password)
 
 // Check a user entered password. Verify err is nil.
-err := Compare(pepper, string(p), password)
+err := passwordonion.Compare(pepper, string(p), password)
 ```
 
 License

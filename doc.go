@@ -16,10 +16,10 @@ When you need to check their password use Compare and send the pepper along with
 from the db and the string the user entered. The func will return nil if the user can continue.
 
     // Encrypt password, store p.
-    p, err := Encrypt(pepper, password)
+    p, err := passwordonion.Encrypt(pepper, password)
 
     // Check a user entered password. Verify err is nil.
-    err := Compare(pepper, string(p), password)
+    err := passwordonion.Compare(pepper, string(p), password)
 
 */
 package passwordonion
