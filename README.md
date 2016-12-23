@@ -1,4 +1,4 @@
-# PasswordOnion [![GoDoc](https://godoc.org/github.com/peppage/passwordonion?status.svg)](https://godoc.org/github.com/peppage/passwordonion)
+# PasswordOnion [![GoDoc](https://godoc.org/github.com/peppage/passwordonion?status.svg)](https://godoc.org/github.com/peppage/passwordonion) [![Go Report Card](https://goreportcard.com/badge/github.com/peppage/passwordonion)](https://goreportcard.com/repor/github.com/peppage/passwordonion)
 
 PasswordOnion is a Go library for encryping and checking passwords.
 
